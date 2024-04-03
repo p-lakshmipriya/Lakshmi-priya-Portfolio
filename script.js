@@ -26,29 +26,3 @@ function scrollFunction() {
     homeSection.classList.remove("active");
   }
 }
-// home section end
-
-// portfolio Start
-// var $galleryContainer = $(".gallery").isotope({
-//   itemSelector: ".item",
-//   layoutMode: "ffitRows",
-// });
-// $(".button-group .button").on("click", function () {
-//   $(".button-group .button").removeClass("active");
-//   $(this).addClass("active");
-
-//   var value = $(this).attr("data-filter");
-//   $galleryContainer.isotope({
-//     filter: value,
-//   });
-// });
-
-// // magnific popup
-
-// $(".gallery").magnificPopup({
-//   delegate: ".overlay a",
-//   type: "image",
-//   gallery: {
-//     enabled: true,
-//   },
-// });
